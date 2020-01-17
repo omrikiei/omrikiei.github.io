@@ -1,0 +1,162 @@
+{
+  "basics": {
+    "name": "Omri Eival",
+    "label": "Software Developer, Individual Contributor, Infrastcture Enthusiast",
+    "picture": "",
+    "email": "omrieival@gmail.com",
+    "phone": "+972(54) 5-807-669",
+    "website": "",
+    "summary": "Currently an Individual Contributor at GrubHub. 11+ years of industry experience in various technical roles. 5 years of software development experience, in both large enterprises and small startups. A performance nerd who loves solving problems, writing code, and collaborating to achieve amazing results. Interested in tackling challenging tasks and making valuable impact.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Gedera",
+      "countryCode": "",
+      "region": "Israel"
+    },
+    "profiles": [{
+      "network": "Github",
+      "username": "omrikiei",
+      "url": "http://github.com/omrikiei"
+    }]
+  },
+  "work": [
+    {
+        "company": "Grubhub",
+        "position": "Individual Contributor",
+        "website": "http://grubhub.com",
+        "startDate": "2019-05-15",
+        "summary": "As an individual contributor my focus is on solving cross team engineering problems, improving developer experience and velocity, taking an active part in system architecture and code lifecycle",
+        "highlights": [
+          "Designed and implemented a service bootstrapping CLI that maintains service templates and generates and registers new boilerplate code(Github integration, AWS Lambda), build artifact and CI/CD pipelines(Make, Docker, Jenkins, Helm, Terraform), telemetry and monitoring integration(New Relic, Sentry, Slack) and stateful backing services, reducing new service development from several weeks to less than a minute.",
+          "Designed and implemented an edge ingress solution that supports custom content based routing dynamic routing using Envoy proxy.",
+          "Solved cross-service performance issues in production - memory leaks, resource allocation fine tuning and build artifact resizing.",
+          "Taking part in the design and implementation of the company's cross platform distributed tracing solution"
+        ]
+    },
+    {
+        "company": "IBM",
+        "position": "Software Team Leader, Trusteer Pinpoint Detect",
+        "website": "https://www.ibm.com/security/fraud-protection/trusteer",
+        "startDate": "2017-11-15",
+        "endDate": "2019-05-14",
+        "summary": "Developing products that detect and prevent financial fraud",
+        "highlights": [
+            "Lead the design and implementation a large scale system that trains and predicts malicious activity based on user specific behavior on mobile devices.",
+            "Lead a team of 3 software engineers. Mentoring for personal development and career growth.",
+            "Took an leading role in product road-map decisions, backlog refinement, sprint planning, system and feature design, incident response and tech culture.",
+            "Gave product architecture lessons and sessions to support and security teams."
+        ]
+    },
+    {
+        "company": "OptimalQ",
+        "position": "Core Engineer",
+        "website": "https://optimalq.com",
+        "startDate": "2017-02-01",
+        "endDate": "2017-11-14",
+        "summary": "Was OptimalQ's first employee, built many of the company's platforms",
+        "highlights": [
+          "Part of OptimalQ's core team as a first employee, took part of multiple design and development features and product design decisions.","Designing, bench-marking and maintaining the company’s software solutions.","Leading the end-to-end design, development and delivery of the company’s self-serve platform.","Designed and developed a JWT based SSO system with multiple Oauth2 integrations.", "Set up a complete solution for monitoring and visualizing performance and business metrics.", "Development of an automated model testing tool for fast research and delivery of new prediction algorithms.","Scaled the company’s solutions to support a high volume requests and reduced average request latency by 90%.", "Research in the field of availability algorithms and segmentation and tuning of big data."
+        ]
+    },
+    {
+        "company": "Trusteer",
+        "position": "Software Developer, Pinpoint Malware Detection",
+        "website": "https://trusteer.com",
+        "startDate": "2015-07-01",
+        "endDate": "2017-02-01",
+        "summary": "",
+        "highlights": [
+            "Developed new data collection vectors for malware detection.",
+            "Led the development of a behavioral biometrics visualization tool for the Pinpoint Criminal Detection solution.", 
+            "Development and maintenance of the company's malware detection solution that prevents financial fraud via \"Man in the browser\" attacks."
+        ]
+    },
+    {
+        "company": "Trusteer",
+        "position": "Tier 3 Support Engineer",
+        "website": "https://trusteer.com",
+        "startDate": "2013-10-01",
+        "endDate": "2015-07-01"
+    },
+    {
+        "company": "Mavenir(Previously Comverse)",
+        "position": "Tier 3.5 Support Engineer",
+        "website": "https://mavenir.com",
+        "startDate": "2011-10-01",
+        "endDate": "2013-09-31"
+    },
+    {
+        "company": "Mavenir(Previously Comverse)",
+        "position": "Tier 3 Deployment Engineer",
+        "website": "https://mavenir.com",
+        "startDate": "2010-04-01",
+        "endDate": "2011-10-01"
+    },
+    {
+        "company": "Israeli Air Force, Ofek Unit",
+        "position": "Computer Infrastructure Operations",
+        "website": "https://www.iaf.org.il/9202-en/IAF.aspx",
+        "startDate": "2006-08-01",
+        "endDate": "2009-12-31"
+    }
+  ],
+  "skills": [
+      {
+        "name": "Infrastructure",
+        "keywords": [
+            "Docker", "Kubernetes", "Terraform", "Jenkins", "Nginx", "Envoy", "AWS", "Redis", "MySQL", "Cassandra", "RabbitMQ"
+        ]
+      },
+      {
+        "name": "Programming",
+        "keywords": [
+            "Go", "Python", "Lua", "Javascript", "Ruby"
+        ]
+      },
+    {
+        "name": "Backend",
+        "keywords": [
+            "AioHttp", "Flask", "Django", "uWSGI", "Tornado", "koa", "SQLAlchemy ORM"
+        ]
+    },
+    {
+        "name": "Frontend",
+        "keywords": [
+            "Javascript", "jQuery", "HTML", "CSS"
+        ]
+    }
+  ],
+  "languages": [{
+    "language": "English",
+    "fluency": "Native speaker"
+  },{
+    "language": "Hebrew",
+    "fluency": "Native speaker"
+  }
+  ],
+  "projects": [{
+    "name": "ktunnel",
+    "url": "https://github.com/omrikiei/ktunnel",
+    "description": "ktunnel is a CLI for exposing local resources to kubernetes",
+    "keywords": [
+      "Go"
+    ]
+  },{
+    "name": "aws logging handlers",
+    "url": "https://github.com/omrikiei/aws_logging_handlers",
+    "description": "A python logging package for asynchronous log streaming to S3 and Kinesis",
+    "keywords": [
+        "Python"
+    ]
+  },{
+    "name": "lua-redis",
+    "url": "https://github.com/omrikiei/lua_redis",
+    "description": "A redis binding for the Lua programming language",
+    "keywords": [
+        "C",
+        "Lua"
+    ]
+   }
+  ]
+}
