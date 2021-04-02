@@ -38,6 +38,7 @@
         "company": "Grubhub",
         "position": "Individual Contributor",
         "startDate": "2019-05-15",
+        "endDate": "2020-07-15",
         "summary": "As an individual contributor my focus is on solving cross team engineering problems, improving developer experience and velocity, taking an active part in system architecture and code lifecycle",
         "highlights": [
           "Designed and implemented a service bootstrapping CLI that maintains service templates and generates and registers new boilerplate code(Github integration, AWS Lambda), build and CI/CD pipelines(Make, Docker, Jenkins, Helm, Terraform), telemetry and monitoring integration(New Relic, Sentry, Slack) and stateful backing services, reducing new service development from several weeks to less than a minute.",
