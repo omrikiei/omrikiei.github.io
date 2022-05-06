@@ -1,0 +1,39 @@
+
+   
+name: export json-resume
+ 
+on:
+  push:
+    branches: [ main, master ]
+
+jobs:
+  check_run:
+    runs-on: ubuntu-latest
+    if: "! contains(github.event.head_commit.message, '[ci skip]')"
+    steps:
+      - run: echo "${{ github.event.head_commit.message }}"
+
+  build:
+    runs-on: ubuntu-latest
+    needs: check_run
+    steps:
+      - uses: actions/checkout@v2
+      - uses: omrikiei/action-jsonresume-export@master
+        name: Export resume
+        with:
+          theme: stackoverflow
+          resume_filepath: resume.json
+          # modifies the index.html and pdf in-place
+          output_filepath: omrieival
+      - name: Commit artifacts
+        id: commit
+        run: |
+          git config --local user.email "action@github.com" && \
+          git config --local user.name "GitHub Action" && \
+          git commit -am "[ci skip] update resume artifacts"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        if: steps.commit.outputs.exit_code == 0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
