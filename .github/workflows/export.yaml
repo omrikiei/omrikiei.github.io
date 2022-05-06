@@ -21,7 +21,7 @@ jobs:
       - uses: omrikiei/action-jsonresume-export@master
         name: Export resume
         with:
-          theme: stackoverflow
+          theme: spartan
           resume_filepath: resume.json
           # modifies the index.html and pdf in-place
           output_filepath: omrieival
