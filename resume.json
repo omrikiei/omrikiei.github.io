@@ -6,7 +6,7 @@
     "email": "omrieival@gmail.com",
     "phone": "+972(54) 5-807-669",
     "website": "https://omrikiei.github.io",
-    "summary": "Currently an engineering manager at Grubhub. 11+ years of industry experience in various technical roles. 6 years of software development experience, in both large enterprises and small startups. A performance nerd who loves solving problems, writing code, and collaborating to achieve amazing results. Interested in tackling challenging tasks and making valuable impact.",
+    "summary": "Currently an engineering manager at Torq. 11+ years of industry experience in various technical roles. 6 years of software development experience, in both large enterprises and small startups. A performance nerd who loves solving problems, writing code, and collaborating to achieve amazing results. Interested in tackling challenging tasks and making valuable impact.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -25,6 +25,8 @@
       "company": "Torq",
       "position": "Senior Software Engineer",
       "startDate": "2021-12-05",
+      "summary": "Building a no-code automation platform for security and operations teams."
+      "highlights": []
     },
     {
       "company": "Grubhub",
