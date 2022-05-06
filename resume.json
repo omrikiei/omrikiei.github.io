@@ -22,9 +22,15 @@
   },
   "work": [
     {
+      "company": "Torq",
+      "position": "Senior Software Engineer",
+      "startDate": "2021-12-05",
+    },
+    {
       "company": "Grubhub",
       "position": "Egineering Manager",
       "startDate": "2020-07-15",
+      "endDate": "2021-12-04",
       "summary": "Our team owns end to end functionality of in-store order taking, order queueing and dispatching, restaurant edge equipment, and observability and management tools for dining managers and venue operators - within the scope of Grubhub's campus dining experience",
       "highlights": [
         "Leading a team of 5 engineers of various seniority levels, working with two product managers to drive the campus dining group to success",
