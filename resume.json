@@ -31,6 +31,7 @@
     {
       "company": "Grubhub",
       "position": "Egineering Manager",
+      "url": "https://torq.io",
       "startDate": "2020-07-15",
       "endDate": "2021-12-04",
       "summary": "Our team owns end to end functionality of in-store order taking, order queueing and dispatching, restaurant edge equipment, and observability and management tools for dining managers and venue operators - within the scope of Grubhub's campus dining experience",
@@ -45,6 +46,7 @@
     {
         "company": "Grubhub",
         "position": "Individual Contributor",
+        "url": "https://grubhub.com",
         "startDate": "2019-05-15",
         "endDate": "2020-07-15",
         "summary": "As an individual contributor my focus is on solving cross team engineering problems, improving developer experience and velocity, taking an active part in system architecture and code life cycle",
@@ -59,6 +61,7 @@
     {
         "company": "IBM",
         "position": "Software Team Leader, Trusteer Pinpoint Detect",
+        "url": "https://www.ibm.com",
         "startDate": "2017-11-15",
         "endDate": "2019-05-14",
         "summary": "Developing products that detect and prevent financial fraud",
