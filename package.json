@@ -1,0 +1,23 @@
+{
+  "name": "omrikiei.github.io",
+  "version": "1.0.0",
+  "description": "where I generate my CV",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omrikiei/omrikiei.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omrikiei/omrikiei.github.io/issues"
+  },
+  "homepage": "https://github.com/omrikiei/omrikiei.github.io#readme",
+  "dependencies": {
+    "jsonresume-theme-caffeine": "^1.2.3",
+    "jsonresume-theme-stackoverflow": "^2.0.0"
+  }
+}
