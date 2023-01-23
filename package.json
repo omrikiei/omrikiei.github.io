@@ -18,6 +18,7 @@
   "homepage": "https://github.com/omrikiei/omrikiei.github.io#readme",
   "dependencies": {
     "jsonresume-theme-caffeine": "^1.2.3",
+    "jsonresume-theme-spartan": "^0.3.0",
     "jsonresume-theme-stackoverflow": "^2.0.0"
   }
 }
