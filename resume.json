@@ -4,21 +4,23 @@
     "label": "Engineering Manager, Software Developer, Individual Contributor, Infrastructure Enthusiast",
     "picture": "",
     "email": "omrieival@gmail.com",
-    "phone": "+972(54) 5-807-669",
+    "phone": "+1 (512) 748-0786",
     "website": "https://omrikiei.github.io",
-    "summary": "Currently an engineering manager at Torq. 11+ years of industry experience in various technical roles. 6 years of software development experience, in both large enterprises and small startups. A performance nerd who loves solving problems, writing code, and collaborating to achieve amazing results. Interested in tackling challenging tasks and making valuable impact.",
+    "summary": "Engineering Manager with 15+ years of experience across startups and enterprises. Currently leading platform engineering at Torq, where I\u2019ve built key features like case management and SOCrates\u2014our AI-powered tier 1 security analyst. Proven track record of growing and mentoring high-performing teams, building scalable infrastructure, and delivering secure, enterprise-ready features. Passionate about security automation, product-driven engineering, and delivering quick, impactful wins.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Gedera",
-      "countryCode": "",
-      "region": "Israel"
+      "city": "Austin",
+      "countryCode": "US",
+      "region": "Texas"
     },
-    "profiles": [{
-      "network": "Github",
-      "username": "omrikiei",
-      "url": "http://github.com/omrikiei"
-    }]
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "omrikiei",
+        "url": "http://github.com/omrikiei"
+      }
+    ]
   },
   "work": [
     {
@@ -27,9 +29,14 @@
       "position": "Engineering Manager",
       "url": "https://torq.io",
       "startDate": "2021-12-05",
-      "summary": "Torq is building a no-code automation platform for security and operations teams.",
-      "highlights": ["Leading a team of senior engineers building the product", "Engaging with the product, field and sales organizations", 
-              "Mentoring other engineers, taking part in roadmap building strategies"]
+      "summary": "Torq is a no-code automation platform built for security and operations teams, used by leading enterprises to streamline and scale security workflows.",
+      "highlights": [
+        "Leading the platform engineering team responsible for horizontal, cross-product features including SSO, ABAC, audit logging, and more.",
+        "Built Torq\u2019s case management system and led the first production release of SOCrates, an AI-powered tier 1 SOC analyst.",
+        "Grew and mentored a team from the ground up\u2014focusing on data infrastructure, authentication/authorization, and security operations.",
+        "Applied innovative architecture to enable secure, scalable multi-tenancy and enterprise-ready auth systems.",
+        "Fostering a product-driven engineering culture focused on velocity, quick POCs, and delivering enterprise value."
+      ]
     },
     {
       "company": "Grubhub",
@@ -48,149 +55,221 @@
       ]
     },
     {
-        "company": "Grubhub",
-        "name": "Grubhub",
-        "position": "Individual Contributor",
-        "url": "https://grubhub.com",
-        "startDate": "2019-05-15",
-        "endDate": "2020-07-15",
-        "summary": "As an individual contributor my focus is on solving cross team engineering problems, improving developer experience and velocity, taking an active part in system architecture and code life cycle",
-        "highlights": [
-          "Designed and implemented a service bootstrapping CLI that maintains service templates and generates and registers new boilerplate code(Github integration, AWS Lambda), build and CI/CD pipelines(Make, Docker, Jenkins, Helm, Terraform), telemetry and monitoring integration(New Relic, Sentry, Slack) and stateful backing services, reducing new service development from several weeks to less than a minute.",
-          "Designed and implemented an edge ingress solution that supports custom content based routing dynamic routing based on Envoy proxy.",
-          "Built a development environment solution that's easy to spin up and teardown remotely",
-          "Solved cross-service performance issues in production - memory leaks, resource allocation fine tuning and build artifact resizing.",
-          "Taking part in the design and implementation of the company's cross platform distributed tracing solution"
-        ]
+      "company": "Grubhub",
+      "name": "Grubhub",
+      "position": "Individual Contributor",
+      "url": "https://grubhub.com",
+      "startDate": "2019-05-15",
+      "endDate": "2020-07-15",
+      "summary": "As an individual contributor my focus is on solving cross team engineering problems, improving developer experience and velocity, taking an active part in system architecture and code life cycle",
+      "highlights": [
+        "Designed and implemented a service bootstrapping CLI that maintains service templates and generates and registers new boilerplate code(Github integration, AWS Lambda), build and CI/CD pipelines(Make, Docker, Jenkins, Helm, Terraform), telemetry and monitoring integration(New Relic, Sentry, Slack) and stateful backing services, reducing new service development from several weeks to less than a minute.",
+        "Designed and implemented an edge ingress solution that supports custom content based routing dynamic routing based on Envoy proxy.",
+        "Built a development environment solution that's easy to spin up and teardown remotely",
+        "Solved cross-service performance issues in production - memory leaks, resource allocation fine tuning and build artifact resizing.",
+        "Taking part in the design and implementation of the company's cross platform distributed tracing solution"
+      ]
     },
     {
-        "company": "IBM",
-        "name": "IBM",
-        "position": "Software Team Leader, Trusteer Pinpoint Detect",
-        "url": "https://www.ibm.com",
-        "startDate": "2017-11-15",
-        "endDate": "2019-05-14",
-        "summary": "Developing products that detect and prevent financial fraud",
-        "highlights": [
-            "Lead the design and implementation a large scale system that trains and predicts malicious activity based on user specific behavior on mobile devices.",
-            "Lead a team of 3 software engineers. Mentoring for personal development and career growth.",
-            "Took a leading role in product road-map decisions, backlog refinement, sprint planning, system and feature design, incident response and tech culture.",
-            "Gave product architecture lessons and sessions to support and security teams."
-        ]
+      "company": "IBM",
+      "name": "IBM",
+      "position": "Software Team Leader, Trusteer Pinpoint Detect",
+      "url": "https://www.ibm.com",
+      "startDate": "2017-11-15",
+      "endDate": "2019-05-14",
+      "summary": "Developing products that detect and prevent financial fraud",
+      "highlights": [
+        "Lead the design and implementation a large scale system that trains and predicts malicious activity based on user specific behavior on mobile devices.",
+        "Lead a team of 3 software engineers. Mentoring for personal development and career growth.",
+        "Took a leading role in product road-map decisions, backlog refinement, sprint planning, system and feature design, incident response and tech culture.",
+        "Gave product architecture lessons and sessions to support and security teams."
+      ]
     },
     {
-        "company": "OptimalQ",
-        "name": "OptimalQ",
-        "url": "https://optimalq.com",
-        "position": "Core Engineer",
-        "startDate": "2017-02-01",
-        "endDate": "2017-11-14",
-        "summary": "Was OptimalQ's first employee, built many of the company's platforms",
-        "highlights": [
-          "Part of OptimalQ's core team as a first employee, took part of multiple design and development features and product design decisions.","Designing, benchmarking and maintaining the company’s software solutions.","Leading the end-to-end design, development and delivery of the company’s self-serve platform.","Designed and developed a JWT based SSO system with multiple Oauth2 integrations.", "Set up a complete solution for monitoring and visualizing performance and business metrics.", "Development of an automated model testing tool for fast research and delivery of new prediction algorithms.","Scaled the company’s solutions to support a high volume requests and reduced average request latency by 90%.", "Research in the field of availability algorithms and segmentation and tuning of big data."
-        ]
+      "company": "OptimalQ",
+      "name": "OptimalQ",
+      "url": "https://optimalq.com",
+      "position": "Core Engineer",
+      "startDate": "2017-02-01",
+      "endDate": "2017-11-14",
+      "summary": "Was OptimalQ's first employee, built many of the company's platforms",
+      "highlights": [
+        "Part of OptimalQ's core team as a first employee, took part of multiple design and development features and product design decisions.",
+        "Designing, benchmarking and maintaining the company\u2019s software solutions.",
+        "Leading the end-to-end design, development and delivery of the company\u2019s self-serve platform.",
+        "Designed and developed a JWT based SSO system with multiple Oauth2 integrations.",
+        "Set up a complete solution for monitoring and visualizing performance and business metrics.",
+        "Development of an automated model testing tool for fast research and delivery of new prediction algorithms.",
+        "Scaled the company\u2019s solutions to support a high volume requests and reduced average request latency by 90%.",
+        "Research in the field of availability algorithms and segmentation and tuning of big data."
+      ]
     },
     {
-        "company": "Trusteer",
-        "name": "Trusteer",
-        "url": "https://trusteer.com",
-        "position": "Software Developer, Pinpoint Malware Detection",
-        "startDate": "2015-07-01",
-        "endDate": "2017-02-01",
-        "summary": "",
-        "highlights": [
-            "Developed new data collection vectors for malware detection.",
-            "Led the development of a behavioral biometrics visualization tool for the Pinpoint Criminal Detection solution.", 
-            "Development and maintenance of the company's malware detection solution that prevents financial fraud via \"Man in the browser\" attacks."
-        ]
+      "company": "Trusteer",
+      "name": "Trusteer",
+      "url": "https://trusteer.com",
+      "position": "Software Developer, Pinpoint Malware Detection",
+      "startDate": "2015-07-01",
+      "endDate": "2017-02-01",
+      "summary": "",
+      "highlights": [
+        "Developed new data collection vectors for malware detection.",
+        "Led the development of a behavioral biometrics visualization tool for the Pinpoint Criminal Detection solution.",
+        "Development and maintenance of the company's malware detection solution that prevents financial fraud via \"Man in the browser\" attacks."
+      ]
     },
     {
-        "company": "Trusteer",
-        "name": "Trusteer",
-        "url": "https://trusteer.com",
-        "position": "Tier 3 Support Engineer",
-        "startDate": "2013-10-01",
-        "endDate": "2015-07-01"
+      "company": "Trusteer",
+      "name": "Trusteer",
+      "url": "https://trusteer.com",
+      "position": "Tier 3 Support Engineer",
+      "startDate": "2013-10-01",
+      "endDate": "2015-07-01"
     },
     {
-        "company": "Mavenir(Previously Comverse)",
-        "name": "Mavenir(Previously Comverse)",
-        "url": "https://comverse.com",
-        "position": "Tier 3.5 Support Engineer",
-        "startDate": "2011-10-01",
-        "endDate": "2013-09-30"
+      "company": "Mavenir(Previously Comverse)",
+      "name": "Mavenir(Previously Comverse)",
+      "url": "https://comverse.com",
+      "position": "Tier 3.5 Support Engineer",
+      "startDate": "2011-10-01",
+      "endDate": "2013-09-30"
     },
     {
-        "company": "Mavenir(Previously Comverse)",
-        "name": "Mavenir(Previously Comverse)",
-        "url": "https://comverse.com",
-        "position": "Tier 3 Deployment Engineer",
-        "startDate": "2010-04-01",
-        "endDate": "2011-10-01"
+      "company": "Mavenir(Previously Comverse)",
+      "name": "Mavenir(Previously Comverse)",
+      "url": "https://comverse.com",
+      "position": "Tier 3 Deployment Engineer",
+      "startDate": "2010-04-01",
+      "endDate": "2011-10-01"
     },
     {
-        "company": "Israeli Air Force, Ofek Unit",
-        "name": "Israeli Air Force, Ofek Unit",
-        "url": "https://iaf.il",
-        "position": "Computer Infrastructure Operations",
-        "startDate": "2006-08-01",
-        "endDate": "2009-12-31"
+      "company": "Israeli Air Force, Ofek Unit",
+      "name": "Israeli Air Force, Ofek Unit",
+      "url": "https://iaf.il",
+      "position": "Computer Infrastructure Operations",
+      "startDate": "2006-08-01",
+      "endDate": "2009-12-31"
     }
   ],
   "skills": [
-      {
-        "name": "Infrastructure",
-        "keywords": [
-            "Docker", "Kubernetes", "Terraform", "Jenkins", "Nginx", "Envoy", "AWS", "Redis", "MySQL", "Cassandra", "RabbitMQ", "MongoDB"
-        ]
-      },
-      {
-        "name": "Programming",
-        "keywords": [
-            "Go", "Python", "Lua", "Javascript", "Ruby"
-        ]
-      },
     {
-        "name": "Backend",
-        "keywords": [
-            "distributed systems","asyncio", "AioHttp", "Flask", "Django", "uWSGI", "Tornado", "koa", "SQLAlchemy ORM"
-        ]
+      "name": "Infrastructure & DevOps",
+      "keywords": [
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "Jenkins",
+        "Helm",
+        "AWS",
+        "Redis",
+        "MySQL",
+        "Cassandra",
+        "RabbitMQ",
+        "MongoDB",
+        "Nginx",
+        "Envoy",
+        "Prometheus",
+        "Grafana"
+      ]
     },
     {
-        "name": "Frontend",
-        "keywords": [
-            "Javascript", "jQuery", "HTML", "CSS"
-        ]
+      "name": "Programming Languages",
+      "keywords": [
+        "Go",
+        "Python",
+        "Lua",
+        "JavaScript",
+        "Ruby",
+        "Bash"
+      ]
+    },
+    {
+      "name": "Backend & Architecture",
+      "keywords": [
+        "Distributed Systems",
+        "Event-Driven Architecture",
+        "Microservices",
+        "AsyncIO",
+        "AioHTTP",
+        "Flask",
+        "Django",
+        "uWSGI",
+        "Tornado",
+        "koa",
+        "SQLAlchemy",
+        "gRPC"
+      ]
+    },
+    {
+      "name": "Frontend & UI",
+      "keywords": [
+        "JavaScript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "React (basic)",
+        "UX Collaboration"
+      ]
+    },
+    {
+      "name": "AI Tooling & Security Automation",
+      "keywords": [
+        "LLMs",
+        "LangChain",
+        "OpenAI API",
+        "Prompt Engineering",
+        "Security Use Cases for LLMs",
+        "SOC Automation"
+      ]
+    },
+    {
+      "name": "Leadership & Management",
+      "keywords": [
+        "Engineering Strategy",
+        "Hiring & Team Building",
+        "Mentoring & Coaching",
+        "Career Growth Planning",
+        "Agile & Sprint Execution",
+        "Cross-Team Collaboration",
+        "Product-Driven Development",
+        "Technical Vision & Roadmapping",
+        "Stakeholder Alignment"
+      ]
     }
   ],
-  "languages": [{
-    "language": "English"
-  },{
-    "language": "Hebrew"
-  }
+  "languages": [
+    {
+      "language": "English"
+    },
+    {
+      "language": "Hebrew"
+    }
   ],
-  "projects": [{
-    "name": "ktunnel",
-    "url": "https://github.com/omrikiei/ktunnel",
-    "description": "ktunnel is a CLI for exposing local resources to kubernetes",
-    "keywords": [
-      "Go"
-    ]
-  },{
-    "name": "aws logging handlers",
-    "url": "https://github.com/omrikiei/aws_logging_handlers",
-    "description": "A python logging package for asynchronous log streaming to S3 and Kinesis",
-    "keywords": [
+  "projects": [
+    {
+      "name": "ktunnel",
+      "url": "https://github.com/omrikiei/ktunnel",
+      "description": "ktunnel is a CLI for exposing local resources to kubernetes",
+      "keywords": [
+        "Go"
+      ]
+    },
+    {
+      "name": "aws logging handlers",
+      "url": "https://github.com/omrikiei/aws_logging_handlers",
+      "description": "A python logging package for asynchronous log streaming to S3 and Kinesis",
+      "keywords": [
         "Python"
-    ]
-  },{
-    "name": "lua-redis",
-    "url": "https://github.com/omrikiei/lua_redis",
-    "description": "A redis binding for the Lua programming language",
-    "keywords": [
+      ]
+    },
+    {
+      "name": "lua-redis",
+      "url": "https://github.com/omrikiei/lua_redis",
+      "description": "A redis binding for the Lua programming language",
+      "keywords": [
         "C",
         "Lua"
-    ]
-   }
+      ]
+    }
   ]
 }
