@@ -6,7 +6,7 @@
     "email": "omrieival@gmail.com",
     "phone": "+1 (512) 748-0786",
     "website": "https://omrikiei.github.io",
-    "summary": "Engineering Manager with 15+ years of experience across startups and enterprises. Currently leading platform engineering at Torq, where I\u2019ve built key features like case management and SOCrates\u2014our AI-powered tier 1 security analyst. Proven track record of growing and mentoring high-performing teams, building scalable infrastructure, and delivering secure, enterprise-ready features. Passionate about security automation, product-driven engineering, and delivering quick, impactful wins.",
+    "summary": "Engineering Manager with 15+ years of experience across startups and enterprises. Currently leading platform engineering at Torq, where We\u2019ve built key features like case management and socrates\u2014our AI-powered tier 1 security analyst. Proven track record of growing and mentoring high-performing teams, building scalable infrastructure, and delivering secure, enterprise-ready features. Passionate about security automation, product-driven engineering, and delivering quick, impactful wins.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -32,7 +32,7 @@
       "summary": "Torq is a no-code automation platform built for security and operations teams, used by leading enterprises to streamline and scale security workflows.",
       "highlights": [
         "Leading the platform engineering team responsible for horizontal, cross-product features including SSO, ABAC, audit logging, and more.",
-        "Built Torq\u2019s case management system and led the first production release of SOCrates, an AI-powered tier 1 SOC analyst.",
+        "Built Torq\u2019s case management system and led the first production release of Torq's AI-powered tier 1 SOC analyst.",
         "Grew and mentored a team from the ground up\u2014focusing on data infrastructure, authentication/authorization, and security operations.",
         "Applied innovative architecture to enable secure, scalable multi-tenancy and enterprise-ready auth systems.",
         "Fostering a product-driven engineering culture focused on velocity, quick POCs, and delivering enterprise value."
